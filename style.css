@@ -51,11 +51,16 @@ p {
   }
   h2,
   p {
+    font-size: 12px;
     text-align: center;
   }
   button {
     display: block;
     font-size: 32px;
+  }
+  .email-link a {
+    max-width: fit-content;
+    font-size: 12px;
   }
 }
 .navigation-links {
