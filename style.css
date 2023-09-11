@@ -36,7 +36,7 @@ h3 {
 p {
   background: var(--background);
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -50,6 +50,9 @@ p {
     line-height: 1.5;
   }
   h2,
+  p {
+    text-align: center;
+  }
   button {
     display: block;
     font-size: 32px;
@@ -102,7 +105,10 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
-
+.row {
+  justify-content: center;
+  text-align: center;
+}
 .email-link:hover {
   text-decoration: underline;
 }
